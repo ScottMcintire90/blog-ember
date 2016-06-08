@@ -32,3 +32,12 @@ body {
 .contact {
   text-align: center;
 }
+
+.singlePost a {
+  color: black;
+}
+
+.postPage img {
+  max-width: 600px;
+  max-height: 600px;
+}
