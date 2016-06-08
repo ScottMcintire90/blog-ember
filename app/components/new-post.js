@@ -1,5 +1,5 @@
 import Ember from 'ember';
-
+import moment from 'moment';
 
 export default Ember.Component.extend({
 
@@ -7,22 +7,19 @@ export default Ember.Component.extend({
 
     save() {
 
-      console.log(Date());
-
       var params = {
         author: this.get('author'),
         title: this.get('title'),
         genre: this.get('genre'),
         content: this.get('content'),
         image: this.get('image'),
-        date: this.get('date')
+        date: moment(new Date()).format('l')
       };
       this.set('author', "");
       this.set('title', "");
       this.set('genre', "");
       this.set('content', "");
       this.set('image', "");
-      this.set('date', "");
 
       this.sendAction('save', params);
     }
