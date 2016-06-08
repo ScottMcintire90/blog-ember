@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  font-size: 5em;
+}
+
+body {
+  font-family: robot;
+}
+
+.link {
+  margin: 150px;
+}
+
+.blogPost img {
+  max-width: 400px;
+  max-height: 400px;
+}
+.singlePost {
+  border: 2px solid black;
+  float:left;
+}

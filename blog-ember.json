@@ -1,0 +1,23 @@
+{ "posts": [{
+    "author": "Veruca Salt",
+    "title": "The Dark Knight",
+    "genre": "Thriller",
+    "content": "This movie awesome!",
+    "image": "http://i.kinja-img.com/gawker-media/image/upload/bdax36su2nbecapijz3l.jpg",
+    "date": "6/7/16"
+  }, {
+    "author": "Mike Teavee",
+    "title": "The Matrix",
+    "genre": "Sci-fi Thriller",
+    "content": "Super cool CGI",
+    "image": "http://static02.mediaite.com/themarysue/uploads/2016/04/matrix.jpg",
+    "date": "6/1/16"
+  }, {
+    "author": "Violet Beauregarde",
+    "title": "The Ring",
+    "genre": "Horror",
+    "content": "This was so scary",
+    "image": "http://static1.squarespace.com/static/53323bb4e4b0cebc6a28ffa2/t/55028e63e4b0722957c8ad3f/1426230885002/",
+    "date": "6/19/16"
+  }]
+}
