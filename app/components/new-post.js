@@ -18,6 +18,7 @@ export default Ember.Component.extend({
       this.set('content', "");
       this.set('image', "");
       this.set('date', "");
+
       this.sendAction('save', params);
     }
 

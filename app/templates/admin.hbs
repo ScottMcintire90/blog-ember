@@ -1,1 +1,12 @@
-{{outlet}}
+<div class="container">
+  <h1>Admin</h1>
+  {{#each model as |post|}}
+  <div class='row'>
+    <div class="col-lg-7 boxModel">
+      <h4>{{post.title}}</h4>
+      <button {{action 'delete' post}}>Delete</button>
+    </div>
+
+  </div>
+  {{/each}}
+</div>
