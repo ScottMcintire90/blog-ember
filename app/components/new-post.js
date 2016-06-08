@@ -1,9 +1,14 @@
 import Ember from 'ember';
 
+
 export default Ember.Component.extend({
+
   actions: {
 
     save() {
+
+      console.log(Date());
+
       var params = {
         author: this.get('author'),
         title: this.get('title'),
