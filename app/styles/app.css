@@ -15,7 +15,19 @@ body {
   max-width: 400px;
   max-height: 400px;
 }
+
 .singlePost {
   border: 2px solid black;
   float:left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+#content {
+}
+
+.form {
+  margin-left: 100px;
 }
