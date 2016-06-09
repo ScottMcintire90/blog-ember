@@ -1,16 +1,17 @@
 
-<div class="container postPage">
-  <h3>{{model.title}}</h3>
-  <h4>{{model.genre}}</h4>
+<div class="container postPage col-md-6">
+  <h2>{{model.title}}</h2>
+  <h3>{{model.genre}}</h3>
   <img src={{model.image}}>
   <p>{{model.content}}</p>
   <p>Posted by {{model.author}} on {{model.date}}</p>
   <br>
 
-
-  <h2>Comments</h2>
-
-  {{new-comment post=model saveComment="saveComment"}}
-
-  {{comment-detail comments=model.comments saveComment="saveComment"}}
 </div>
+  <div class="col-md-6">
+    <h2>Add a Comment</h2>
+    {{new-comment post=model saveComment="saveComment"}}
+    <div class="comments">
+      {{comment-detail comments=model.comments saveComment="saveComment"}}
+    </div>
+  </div>

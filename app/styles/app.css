@@ -11,14 +11,20 @@ body {
   margin: 150px;
 }
 
+.blogPosts {
+  border-right: 1px solid black;
+}
+.comments {
+  margin-top: 200px;
+}
 .blogPost img {
   max-width: 400px;
   max-height: 400px;
 }
 
 .singlePost {
-  border: 2px solid black;
   float:left;
+  margin: 25px;
 }
 
 .form-group {

@@ -5,6 +5,7 @@ export default Ember.Route.extend({
     return Ember.RSVP.hash({
       posts: this.store.findAll('post'),
       comments: this.store.findAll('comment')
+      
     });
   },
 
@@ -13,6 +14,7 @@ export default Ember.Route.extend({
       var newPost = this.store.createRecord('post', params);
       newPost.save();
       this.transitionTo('index');
-    }
+    },
+
   }
 });
