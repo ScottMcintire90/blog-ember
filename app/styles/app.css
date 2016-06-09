@@ -1,14 +1,11 @@
 .header {
   text-align: center;
   font-size: 5em;
+  background-color: inherit;
 }
 
 body {
   font-family: robot;
-}
-
-.link {
-  margin: 150px;
 }
 
 .blogPosts {
@@ -20,16 +17,44 @@ body {
 .blogPost img {
   max-width: 675px;
   max-height: 675px;
+  border: 5px solid black;
 }
 
+body {
+  background: url(http://img.valiet.org/2016/01/31/red-curtains-l-49f21184032368c2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+body button {
+  color: black;
+}
 .singlePost {
   margin-bottom: 25px;
+}
+
+.commentForm input {
+  width: 300px;
+  color: black;
+}
+
+.form input {
+  width: 300px;
+  color: black;
 }
 
 .form-group {
   margin-bottom: 20px;
 }
-
+.navbar {
+  background-color: black;
+  text-align: center;
+}
+.link{
+  margin-right: 100px;
+}
 
 
 .contact {
@@ -37,12 +62,13 @@ body {
 }
 
 .singlePost a {
-  color: black;
+  color: white;
 }
 
 .postPage img {
   max-width: 600px;
   max-height: 600px;
+  border: 5px solid black;
 }
 
 .newPost {
