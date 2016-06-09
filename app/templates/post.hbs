@@ -1,14 +1,14 @@
-
+<h1 class="header jumbotron">{{model.title}}</h1>
 <div class="container postPage col-md-6">
-  <h2>{{model.title}}</h2>
-  <h3>{{model.genre}}</h3>
   <img src={{model.image}}>
+  <h2>Movie Info</h2>
+  <h3>{{model.genre}}</h3>
   <h4>{{model.content}}</h4>
   <p>Posted by {{model.author}} on {{model.date}}</p>
   <br>
 
 </div>
-  <div class="col-md-6">
+  <div class="commentDiv col-md-6">
     <h2>Add a Comment</h2>
     {{new-comment post=model saveComment="saveComment"}}
     <div class="comments">

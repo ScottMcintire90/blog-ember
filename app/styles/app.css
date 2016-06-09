@@ -35,10 +35,21 @@ body button {
   margin-bottom: 25px;
 }
 
+.commentForm input {
+  width: 300px;
+  color: black;
+}
+
+.form input {
+  width: 300px;
+  color: black;
+}
+
 .form-group {
   margin-bottom: 20px;
 }
 .navbar {
+  background-color: black;
   text-align: center;
 }
 .link{

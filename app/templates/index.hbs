@@ -1,6 +1,5 @@
+<h1 class="header jumbotron">Movie Blog</h1>
 <div class="blogPost">
-
-
   <div class="blogPosts col-md-6">
     <ul>
       {{#each model.posts as |post|}}
@@ -8,17 +7,11 @@
           {{#link-to 'post' post.id}}<h3>{{post.title}}</h3>{{/link-to}}
           <h4>{{post.genre}}</h4>
           {{#link-to 'post' post.id}}<img src={{post.image}}>{{/link-to}}
-
-
         </div>
       {{/each}}
     </ul>
   </div>
-
   <div class="newPost col-md-6">
     {{new-post save="save"}}
   </div>
-
-
-
 </div>

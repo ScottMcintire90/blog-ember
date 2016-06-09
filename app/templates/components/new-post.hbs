@@ -2,23 +2,23 @@
   <h1>New Post</h1>
   <form>
     <div class="form-group">
-      {{input value=author id="author" placeholder="Author"}}
+      {{input value=author id="author" placeholder="Author" class="form-control"}}
     </div>
 
     <div class="form-group">
-      {{input value=title id="title" placeholder="Title"}}
+      {{input value=title id="title" placeholder="Title" class="form-control"}}
     </div>
 
     <div class="form-group">
-      {{input value=genre id="genre" placeholder="Genre"}}
+      {{input value=genre id="genre" placeholder="Genre" class="form-control"}}
     </div>
 
     <div class="form-group">
-      {{input value=content id="content" placeholder="Content"}}
+      {{input value=content id="content" placeholder="Content" class="form-control"}}
     </div>
 
     <div class="form-group">
-      {{input value=image id="image" placeholder="Image"}}
+      {{input value=image id="image" placeholder="Image" class="form-control"}}
     </div>
 
     <button {{action 'save' post}}>Submit</button>
