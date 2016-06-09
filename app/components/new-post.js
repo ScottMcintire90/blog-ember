@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         genre: this.get('genre'),
         content: this.get('content'),
         image: this.get('image'),
-        date: moment(new Date()).format('l')
+        date: moment().format('MMMM Do YYYY, h:mm:ss a')
       };
       this.set('author', "");
       this.set('title', "");

@@ -1,0 +1,10 @@
+<h2>Comments</h2>
+{{#each sortedComments as |comment|}}
+  <div class="comment">
+    <p>{{comment.name}} says:</p>
+    <p>{{comment.message}}</p>
+    <p>Submitted: {{comment.date}}</p>
+    <!-- <button class="button" {{action 'deleteAnswer' comment}}>Delete this Answer</button> -->
+    <div class="border"></div>
+  </div>
+{{/each}}
