@@ -18,22 +18,19 @@ body {
   margin-top: 200px;
 }
 .blogPost img {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 675px;
+  max-height: 675px;
 }
 
 .singlePost {
-  float:left;
-  margin: 25px;
+  margin-bottom: 25px;
 }
 
 .form-group {
   margin-bottom: 20px;
 }
 
-.form {
-  margin-left: 100px;
-}
+
 
 .contact {
   text-align: center;
@@ -46,4 +43,9 @@ body {
 .postPage img {
   max-width: 600px;
   max-height: 600px;
+}
+
+.newPost {
+  position: fixed;
+  margin-left: 1000px;
 }
