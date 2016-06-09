@@ -1,9 +1,9 @@
 <h2>Comments:</h2>
 {{#each sortedComments as |comment|}}
-  <div class="comment">
-    <p>{{comment.name}} says:</p>
+  <div id="commentBlock" class="comment">
+    <p id='userSay'>{{comment.name}}</p>
     <p>{{comment.message}}</p>
-    <p>Submitted: {{comment.date}}</p>
+    <p>{{comment.date}}</p>
     <button class="button" {{action 'deleteComment' comment}}>Delete this Comment</button>
     <div class="border"></div>
   </div>
