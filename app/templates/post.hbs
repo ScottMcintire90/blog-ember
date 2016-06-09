@@ -10,7 +10,7 @@
 
   <h2>Comments</h2>
 
-  {{new-comment comments=model saveComment="saveComment"}}
+  {{new-comment post=model saveComment="saveComment"}}
 
-  {{comment-detail comments=model.answers saveComment="saveComment"}}
+  {{comment-detail comments=model.comments saveComment="saveComment"}}
 </div>

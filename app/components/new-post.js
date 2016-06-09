@@ -4,9 +4,7 @@ import moment from 'moment';
 export default Ember.Component.extend({
 
   actions: {
-
     save() {
-
       var params = {
         author: this.get('author'),
         title: this.get('title'),
@@ -15,6 +13,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
         date: moment().format('MMMM Do YYYY, h:mm:ss a')
       };
+      
       this.set('author', "");
       this.set('title', "");
       this.set('genre', "");

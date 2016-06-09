@@ -9,7 +9,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         message: this.get('message'),
         date: moment().format('MMMM Do YYYY, h:mm:ss a'),
-        // post: this.get('post')
+        post: this.get('post')
       };
       this.sendAction('saveComment', params);
     }

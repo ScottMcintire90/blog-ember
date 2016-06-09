@@ -9,7 +9,6 @@ export default Ember.Route.extend({
   actions: {
     saveComment(params) {
       var newComment = this.store.createRecord('comment', params);
-			console.log(newComment);
       var post = params.post;
       post.get('comments').addObject(newComment);
       newComment.save().then(function() {
@@ -17,6 +16,7 @@ export default Ember.Route.extend({
       });
       this.transitionTo('post', params.post);
     },
+
 		destroyComment(comment) {
 			comment.destroyRecord();
 			this.transitionTo('post');
